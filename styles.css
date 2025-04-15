@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+}
+
+/* Container to center content and give width */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Paragraphs */
+p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Lists */
+ol, ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Forms */
+form {
+    margin-top: 20px;
+}
+
+input, select, button {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Media */
+img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+audio {
+    display: block;
+    margin: 10px auto;
+}
+
+/* Button Styling */
+button {
+    background-color: #3e8e41;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #367c39;
+}

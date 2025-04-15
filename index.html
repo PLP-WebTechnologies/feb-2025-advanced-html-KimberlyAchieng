@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETPALS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to PETPALS</h1>
+        <p>Step up as a PawPal, make tails wag—volunteer and be a pet’s best tag!</p>
+
+        <!-- Image from Pexels -->
+        <img src="https://images.pexels.com/photos/7474567/pexels-photo-7474567.jpeg" alt="Volunteers playing a brown dog">
+
+        <!-- Ordered list with Roman numerals -->
+        <h2>How To Volunteer at PAWPALS</h2>
+        <ol type="I">
+            <li>Sign Up with us on our website through the provided form</li>
+            <li>Choose a Role!
+                <ul>
+                    <li>Pet Walker - Come in and take them on a walk</li>
+                    <li>Pet Cuddler - Come in, pet them, feed them, and interact with them</li>
+                    <li>Pet Groomer Conduit - Help our lovely pets get groomed by donating spare change</li>
+                </ul>
+            </li>
+            <li>Commit to Shifts – Schedule and attend regular volunteer sessions.</li>
+            <li>Follow Guidelines – Adhere to shelter rules for safety and care.</li>
+        </ol>
+        <p>Make a Difference! Join us in making a difference in the lives of pets in need. Your time and love can change their world!</p>
+
+        <!-- Multimedia Example (Audio and Video) -->
+        
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br>
+
+        <video controls>
+            <source src="https://videos.pexels.com/video-files/7474479/7474479-sd_640_360_25fps.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <!-- Table of 5 contacts -->
+        <h2>Contact List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Jane Mathenge</td><td>123 Elm Street</td><td>(254) 729-476-647</td><td>janemathenge@google.com</td></tr>
+                <tr><td>Tamara Chelagat</td><td>456 Oak Avenue</td><td>(254) 773-656-857</td><td>tamarachelagat@google.com</td></tr>
+                <tr><td>Cindy Kevali</td><td>789 Pine Road</td><td>(254) 727-454-667</td><td>cindykevali@google.com</td></tr>
+                <tr><td>Kimberly Kemunto</td><td>321 Birch Lane</td><td>(254) 733-476-607</td><td>kimberlykemunto@google.com</td></tr>
+                <tr><td>Angela Wanjiku</td><td>654 Maple Drive</td><td>(254) 763-456-857</td><td>angelawanjiku@google.com</td></tr>
+            </tbody>
+        </table>
+
+         <!-- Registration Form -->
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown (Select) -->
+            <label for="county">County:</label>
+            <select id="county" name="county" required>
+                <option value="Nairobi">Nairobi</option>
+                <option value="Kisumu">Kisumu</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Nakuru">Nakuru</option>
+            </select><br><br>
+
+            <!-- Radio Buttons -->
+            <p>Gender:</p>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <p> Role:</p>
+            <input type="checkbox" id="Pet Walker" name="role" value="Pet Walker">
+            <label for="Pet Walker">Pet Walker</label>
+            <input type="checkbox" id="Pet Cuddler" name="role" value="Pet Cuddler">
+            <label for="Pet Cuddler">Pet Cuddler</label>
+            <input type="checkbox" id="Pet Groomer Conduit" name="role" value="Pet Groomer Conduit">
+            <label for="Pet Groomer Conduit">Pet Groomer Conduit</label><br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+
+        <footer>Thank you for your interest in volunteering with us!</footer>
+    </div>
+</body>
+</html>
